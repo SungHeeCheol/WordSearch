@@ -4,16 +4,16 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-class Words(BaseModel):
-    id:str
-    title: str
-    description:str
-    words: []
+# class Words(BaseModel):
+#     id:str
+#     title: str
+#     description:str
+#     words: []
     
-games = []
+# games = []
 
-@app.post("/createGame")
-def create_game(words:Words):
-    games.appen(words)
+# @app.post("/createGame")
+# def create_game(words:Words):
+#     games.appen(words)
 
 app.mount("/", StaticFiles(directory='static', html=True), name='static')
