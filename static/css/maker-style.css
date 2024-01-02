@@ -1,0 +1,139 @@
+@import url(reset.css);
+@import url(header.css);
+
+#maker {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 1200px;
+  height: 1000px;
+  background-color: black;
+  padding: 0px 10px 0px 10px;
+}
+
+#maker label {
+  display: block;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
+.maker-head {
+  width: 100%;
+  height: 110px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.maker-title {
+  margin-top: 30px;
+  width: 100%;
+  height: 80px;
+}
+
+#title {
+  margin-top: 20px;
+  width: 99.5%;
+  height: 30px;
+  border: 2px solid forestgreen;
+  border-radius: 5px;
+  background-color: rgb(246, 246, 246);
+}
+
+.maker-Desc {
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+}
+
+#desc {
+  margin-top: 20px;
+  width: 99.5%;
+  height: 100px;
+  border: 2px solid forestgreen;
+  border-radius: 5px;
+  background-color: rgb(246, 246, 246);
+}
+
+.maker-words {
+  margin-top: 30px;
+  width: 100%;
+  height: 210px;
+}
+
+.maker-words p {
+  padding: 10px 0px 3px 0px;
+  width: 100%;
+  height: 20px;
+  font-size: 16px;
+  color: aliceblue;
+}
+
+.word-list {
+  width: 100%;
+  height: 160px;
+}
+
+.word-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.word {
+  width: 240px;
+  height: 50px;
+  background-color: rgb(246, 246, 246);
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.maker-Subject {
+  margin-top: 30px;
+  width: 100%;
+  height: 80px;
+}
+
+.radio-buttons {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.maker-submit {
+  margin-top: 50px;
+  width: 100%;
+  height: 70px;
+  color: black;
+  background-color: khaki;
+  font-size: 30px;
+}
+
+.maker-submit:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+.main-footer {
+  padding-top: 30px;
+  width: 100%;
+  height: 180px;
+  background-color: rgb(85, 85, 85);
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  box-sizing: border-box;
+}
+
+.main-footer a {
+  color: white;
+  padding: 0px 10px 0px 10px;
+}
